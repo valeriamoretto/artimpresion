@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imprime Todo — Imprenta y publicidad</title>
+<meta name="description" content="Imprenta y publicidad: packaging, etiquetas, lonas, expositores y promocionales. Diseño y producción en un solo lugar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<!-- ══ HEADER ══ -->
+<header class="header">
+  <div class="header__inner">
+    <a class="logo" href="#inicio" aria-label="Imprime Todo, inicio">
+      <span class="logo__mark" aria-hidden="true">
+        <i class="c"></i><i class="m"></i><i class="y"></i><i class="k"></i>
+      </span>
+      <span class="logo__text"><b>IMPRIME</b>TODO</span>
+    </a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+      <span class="nav-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="sr-only">Abrir menú</span>
+    </button>
+
+    <nav class="nav" id="nav-menu" aria-label="Principal">
+      <ul class="nav__list">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a class="btn btn--yellow nav__cta" href="#contacto">Cotizar</a></li>
+      </ul>
+    </nav>
+  </div>
+  <p class="urgency">
+    <span>¿Lo necesitas urgente?</span>
+    <a href="#contacto">Producción express &rarr;</a>
+  </p>
+</header>
+
+<main id="contenido">
+
+  <!-- ══ HERO ══ -->
+  <section class="hero" id="inicio">
+    <div class="wrap hero__grid">
+      <div class="hero__body">
+        <p class="eyebrow eyebrow--light">Imprenta y publicidad · Desde 2002</p>
+        <h1 class="hero__title">Imprime todo en <em>un solo</em> lugar.</h1>
+        <p class="hero__lead">
+          Diseño y producción bajo el mismo techo. Desde una tarjeta de
+          presentación hasta el branding completo de tu local.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn--yellow" href="#contacto">Solicita tu cotización</a>
+          <a class="btn btn--ghost" href="#portafolio">Ver portafolio</a>
+        </div>
+      </div>
+
+      <div class="hero__art" aria-hidden="true">
+        <div class="swatches">
+          <span class="swatch swatch--c">Packaging</span>
+          <span class="swatch swatch--m">Etiquetas</span>
+          <span class="swatch swatch--k">Lonas</span>
+          <span class="swatch swatch--y">Menús</span>
+        </div>
+        <span class="hero__plus">+</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="cmyk-bar" role="presentation"></div>
+
+  <!-- ══ CONFIANZA ══ -->
+  <section class="trust" aria-label="Por qué confiar en nosotros">
+    <ul class="wrap trust__list">
+      <li><b>20+</b> años de experiencia</li>
+      <li><b>500+</b> proyectos entregados</li>
+      <li><b>CDMX</b> y envíos a todo México</li>
+      <li><b>1</b> solo proveedor para todo</li>
+    </ul>
+  </section>
+
+  <!-- ══ SERVICIOS ══ -->
+  <section class="section" id="servicios">
+    <div class="wrap">
+      <p class="eyebrow">Servicios</p>
+      <h2 class="section__title">Todo lo que tu negocio necesita imprimir.</h2>
+      <p class="section__lead">
+        Toca cada categoría para ver los productos que incluye.
+      </p>
+
+      <ul class="accordion">
+        <li class="acc acc--c">
+          <button class="acc__head" aria-expanded="false">
+            <span class="acc__name">Impresión digital</span>
+            <span class="acc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc__panel" hidden>
+            <p>Tiradas cortas y medianas con acabado profesional, listas en días.</p>
+            <ul class="tags">
+              <li>Flyers</li><li>Tarjetas de presentación</li><li>Menús</li>
+              <li>Calendarios</li><li>Folletos</li><li>Catálogos</li>
+              <li>Laminados</li><li>Pegatinas</li>
+            </ul>
+            <a class="link" href="#contacto">Cotizar impresión digital &rarr;</a>
+          </div>
+        </li>
+
+        <li class="acc acc--m">
+          <button class="acc__head" aria-expanded="false">
+            <span class="acc__name">Packaging y etiquetas</span>
+            <span class="acc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc__panel" hidden>
+            <p>Empaques troquelados a medida y etiquetas para producto en anaquel.</p>
+            <ul class="tags">
+              <li>Cajas personalizadas</li><li>Empaque para alimentos</li>
+              <li>Etiquetas autoadhesivas</li><li>Troquelados especiales</li>
+              <li>Bolsas con diseño</li><li>Packaging de lujo</li>
+            </ul>
+            <a class="link" href="#contacto">Cotizar packaging &rarr;</a>
+          </div>
+        </li>
+
+        <li class="acc acc--k">
+          <button class="acc__head" aria-expanded="false">
+            <span class="acc__name">Viniles y lonas</span>
+            <span class="acc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc__panel" hidden>
+            <p>Gran formato para exterior e interior, con instalación disponible.</p>
+            <ul class="tags">
+              <li>Lonas con ojillos</li><li>Banners retráctiles</li>
+              <li>Vinil de corte</li><li>Rotulación vehicular</li>
+              <li>Señalización</li><li>Lona backlight</li>
+            </ul>
+            <a class="link" href="#contacto">Cotizar gran formato &rarr;</a>
+          </div>
+        </li>
+
+        <li class="acc acc--c">
+          <button class="acc__head" aria-expanded="false">
+            <span class="acc__name">Expositores y punto de venta</span>
+            <span class="acc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc__panel" hidden>
+            <p>Material POP que hace que tu producto se vea antes que el de al lado.</p>
+            <ul class="tags">
+              <li>Displays de piso</li><li>Glorificadores</li><li>Wobblers</li>
+              <li>Stands modulares</li><li>Habladores</li><li>Cajas expositoras</li>
+            </ul>
+            <a class="link" href="#contacto">Cotizar expositores &rarr;</a>
+          </div>
+        </li>
+
+        <li class="acc acc--m">
+          <button class="acc__head" aria-expanded="false">
+            <span class="acc__name">Productos promocionales</span>
+            <span class="acc__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc__panel" hidden>
+            <p>Artículos con tu marca para eventos, campañas y regalo corporativo.</p>
+            <ul class="tags">
+              <li>Bolígrafos y libretas</li><li>Bolsas ecológicas</li>
+              <li>Tazas y termos</li><li>Playeras y uniformes</li>
+              <li>Llaveros y pines</li><li>Kits corporativos</li>
+            </ul>
+            <a class="link" href="#contacto">Cotizar promocionales &rarr;</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="cmyk-bar" role="presentation"></div>
+
+  <!-- ══ POR QUÉ ══ -->
+  <section class="section section--dark" id="nosotros">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light">Por qué nosotros</p>
+      <h2 class="section__title">Diseño y producción, sin intermediarios.</h2>
+      <ul class="why">
+        <li class="why__item">
+          <span class="why__num why__num--c">01</span>
+          <h3>Calidad industrial</h3>
+          <p>Los mismos estándares que exige un cliente corporativo, aplicados
+             también al pedido más chico. Todo se revisa antes de salir.</p>
+        </li>
+        <li class="why__item">
+          <span class="why__num why__num--m">02</span>
+          <h3>Un solo proveedor</h3>
+          <p>No necesitas una agencia y luego una imprenta. Aquí se diseña,
+             se produce y se entrega. Menos vueltas y menos costo.</p>
+        </li>
+        <li class="why__item">
+          <span class="why__num why__num--y">03</span>
+          <h3>Atención directa</h3>
+          <p>Hablas con quien hace el trabajo, no con un conmutador. Te
+             asesoramos en material, acabado y tiraje sin costo extra.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="cmyk-bar" role="presentation"></div>
+
+  <!-- ══ PORTAFOLIO ══ -->
+  <section class="section section--tint" id="portafolio">
+    <div class="wrap">
+      <p class="eyebrow">Portafolio</p>
+      <h2 class="section__title">Trabajo reciente.</h2>
+
+      <div class="filters" role="group" aria-label="Filtrar portafolio">
+        <button class="chip is-active" data-filter="all" aria-pressed="true">Todos</button>
+        <button class="chip" data-filter="impresion" aria-pressed="false">Impresión</button>
+        <button class="chip" data-filter="packaging" aria-pressed="false">Packaging</button>
+        <button class="chip" data-filter="lonas" aria-pressed="false">Lonas</button>
+        <button class="chip" data-filter="pop" aria-pressed="false">Punto de venta</button>
+      </div>
+
+      <ul class="work" id="work-grid">
+        <li class="work__item" data-cat="packaging">
+          <div class="work__img work__img--c">Fotografía del proyecto</div>
+          <p class="work__cat">Packaging</p>
+          <h3 class="work__name">Línea de empaque para alimentos</h3>
+        </li>
+        <li class="work__item" data-cat="impresion">
+          <div class="work__img work__img--m">Fotografía del proyecto</div>
+          <p class="work__cat">Impresión</p>
+          <h3 class="work__name">Carta y menús para restaurante</h3>
+        </li>
+        <li class="work__item" data-cat="lonas">
+          <div class="work__img work__img--k">Fotografía del proyecto</div>
+          <p class="work__cat">Lonas</p>
+          <h3 class="work__name">Fachada e interiores de local</h3>
+        </li>
+        <li class="work__item" data-cat="pop">
+          <div class="work__img work__img--c">Fotografía del proyecto</div>
+          <p class="work__cat">Punto de venta</p>
+          <h3 class="work__name">Stand para feria comercial</h3>
+        </li>
+        <li class="work__item" data-cat="packaging">
+          <div class="work__img work__img--m">Fotografía del proyecto</div>
+          <p class="work__cat">Etiquetas</p>
+          <h3 class="work__name">Etiquetas para línea cosmética</h3>
+        </li>
+        <li class="work__item" data-cat="impresion">
+          <div class="work__img work__img--k">Fotografía del proyecto</div>
+          <p class="work__cat">Impresión</p>
+          <h3 class="work__name">Catálogo institucional anual</h3>
+        </li>
+      </ul>
+      <p class="work__empty" id="work-empty" hidden>No hay proyectos en esta categoría todavía.</p>
+    </div>
+  </section>
+
+  <div class="cmyk-bar" role="presentation"></div>
+
+  <!-- ══ TESTIMONIOS ══ -->
+  <section class="section" aria-label="Testimonios">
+    <div class="wrap">
+      <p class="eyebrow">Clientes</p>
+      <h2 class="section__title">Lo que dicen de nosotros.</h2>
+      <ul class="quotes">
+        <li class="quote">
+          <blockquote>Llevamos años pidiendo todo nuestro material aquí.
+            La calidad no varía y los tiempos se cumplen.</blockquote>
+          <p class="quote__by">Gerente de marketing<span>Empresa industrial</span></p>
+        </li>
+        <li class="quote">
+          <blockquote>Nos resolvieron la carta, los menús y la señalización
+            del local. Todo con una sola persona, sin andar corriendo.</blockquote>
+          <p class="quote__by">Dueña de restaurante<span>Ciudad de México</span></p>
+        </li>
+        <li class="quote">
+          <blockquote>Necesitábamos lonas y flyers en tres días para un evento.
+            Llegaron a tiempo y quedaron muy bien.</blockquote>
+          <p class="quote__by">Coordinadora de eventos<span>Agencia</span></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="cmyk-bar" role="presentation"></div>
+
+  <!-- ══ CONTACTO ══ -->
+  <section class="section section--tint" id="contacto">
+    <div class="wrap contact">
+      <div class="contact__intro">
+        <p class="eyebrow">Contacto</p>
+        <h2 class="section__title">¿Tienes un proyecto? Cuéntanos.</h2>
+        <p class="section__lead">Respondemos en menos de 24 horas hábiles.
+           La asesoría de diseño no tiene costo.</p>
+
+        <ul class="contact__list">
+          <li><b>WhatsApp</b><a href="https://wa.me/5215500000000">+52 55 0000 0000</a></li>
+          <li><b>Correo</b><a href="mailto:hola@imprimetodo.mx">hola@imprimetodo.mx</a></li>
+          <li><b>Taller</b><span>Ciudad de México · Envíos a todo el país</span></li>
+          <li><b>Horario</b><span>Lun–Vie 9:00–18:00 · Sáb 9:00–14:00</span></li>
+        </ul>
+      </div>
+
+      <form class="form" id="quote-form" novalidate>
+        <div class="field">
+          <label for="f-nombre">Nombre <span aria-hidden="true">*</span></label>
+          <input id="f-nombre" name="nombre" type="text" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="f-mail">Correo electrónico <span aria-hidden="true">*</span></label>
+          <input id="f-mail" name="correo" type="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="f-tel">Teléfono o WhatsApp</label>
+          <input id="f-tel" name="telefono" type="tel" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="f-serv">¿Qué necesitas? <span aria-hidden="true">*</span></label>
+          <select id="f-serv" name="servicio" required>
+            <option value="">Selecciona una opción…</option>
+            <option>Impresión digital</option>
+            <option>Packaging y etiquetas</option>
+            <option>Viniles y lonas</option>
+            <option>Expositores y punto de venta</option>
+            <option>Productos promocionales</option>
+            <option>Todavía no lo tengo claro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-msg">Cuéntanos del proyecto <span aria-hidden="true">*</span></label>
+          <textarea id="f-msg" name="mensaje" rows="4" required
+            placeholder="Producto, cantidad aproximada, fecha de entrega, referencias…"></textarea>
+        </div>
+        <div class="field">
+          <label for="f-file">Adjuntar arte o referencia</label>
+          <input id="f-file" name="archivo" type="file"
+                 accept=".pdf,.ai,.eps,.png,.jpg,.jpeg,.zip">
+          <p class="field__hint">PDF, AI, EPS, PNG, JPG o ZIP · máximo 25 MB</p>
+        </div>
+        <button class="btn btn--yellow btn--block" type="submit">Enviar cotización</button>
+        <p class="form__status" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <span class="logo logo--footer">
+        <span class="logo__mark" aria-hidden="true">
+          <i class="c"></i><i class="m"></i><i class="y"></i><i class="k"></i>
+        </span>
+        <span class="logo__text"><b>IMPRIME</b>TODO</span>
+      </span>
+      <p>Soluciones de impresión y publicidad para negocios que quieren
+         verse bien. Ciudad de México.</p>
+    </div>
+
+    <div class="footer__col">
+      <h2>Servicios</h2>
+      <ul>
+        <li><a href="#servicios">Impresión digital</a></li>
+        <li><a href="#servicios">Packaging y etiquetas</a></li>
+        <li><a href="#servicios">Viniles y lonas</a></li>
+        <li><a href="#servicios">Expositores y POP</a></li>
+        <li><a href="#servicios">Promocionales</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h2>Contacto</h2>
+      <ul>
+        <li><a href="mailto:hola@imprimetodo.mx">hola@imprimetodo.mx</a></li>
+        <li><a href="https://wa.me/5215500000000">WhatsApp directo</a></li>
+        <li><span>Lun–Vie 9:00–18:00</span></li>
+        <li><span>Sáb 9:00–14:00</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cmyk-bar" role="presentation"></div>
+
+  <p class="footer__legal wrap">
+    <span>Plantilla de demostración — marca ficticia.</span>
+    <span>Diseño y desarrollo: Valeria Moretto</span>
+  </p>
+</footer>
+
+<a class="wa" href="https://wa.me/5215500000000" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
