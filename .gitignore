@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+Icon?
+
+# Configuración local de herramientas
+.claude/
+.vscode/
+.idea/
+
+# Material de origen privado: audios del cliente, archivos .ai en alta
+# resolución y capturas de referencia. No se publican.
+fuentes/
+
+# Respaldos y temporales
+*.bak
+*.bak.*
+.bak-*
+*~
